@@ -69,3 +69,14 @@ $$ \ln L = -\frac{n}{2} \ln(2\pi) - \frac{1}{2} \sum_{t=1}^{n} \left( \ln F_t + 
 
 樣本內擬和好的參數固定好後直接套入新的數據，估計出的水平和全樣本差不多
 
+
+
+## 安裝包
+install.packages("quantmod")
+
+install.packages("rugarch")
+
+install.packages(c("fGarch", "plotly", "dplyr"))
+
+install.packages("statespacer")
+
